@@ -1,0 +1,38 @@
+{
+  "Actions": [
+    {
+      "Icon": "mfa-idle",
+      "Name": "Streamdeck MFA",
+      "States": [
+        {
+          "Image": "mfa-idle",
+          "FontSize": "18",
+          "FontStyle": "Bold",
+          "TitleAlignment": "bottom",
+          "TitleColor": "#ffffff"
+        }
+      ],
+      "Tooltip": "Read a TOTP from your yubikey",
+      "UUID": "nl.impeto.streamdeckmfa.action"
+    }
+  ],
+  "SDKVersion": 2,
+  "Author": "Pieter Schoenmakers",
+  "CodePath": "StreamdeckMfa",
+  "PropertyInspectorPath": "propertyinspector/index.html",
+  "Description": "Read a TOTP from your yubikey",
+  "Name": "Streamdeck MFA",
+  "Icon": "mfa-idle",
+  "URL": "https://github.com/pisch/streamdeck-mfa.git",
+  "Version": "0.1",
+  "OS": [
+    {
+        "Platform": "mac",
+        "MinimumVersion" : "10.14"
+    }
+  ],
+  "Software":
+    {
+        "MinimumVersion" : "4.1"
+    }
+}
