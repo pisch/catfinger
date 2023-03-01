@@ -1,8 +1,0 @@
-{
-  "Description": "Read a TOTP from your yubikey.",
-  "Name": "Streamdeck MFA",
-  "nl.impeto.streamdeckmfa.action": {
-    "Name": "Streamdeck MFA",
-    "Tooltip": "Read a TOTP from your yubikey"
-  }
-}

@@ -10,7 +10,7 @@
 **/
 //==============================================================================
 
-#import "MyStreamDeckPlugin.h"
+#import "CatfingerPlugin.h"
 
 #import "ESDSDKDefines.h"
 #import "ESDConnectionManager.h"
@@ -141,7 +141,7 @@ static NSString * CreateBase64EncodedString(NSString *inImagePath)
 
 // MARK: - MyStreamDeckPlugin -- interface
 
-@interface MyStreamDeckPlugin ()
+@interface CatfingerPlugin ()
 
 // A timer to revert the icon to idle state
 @property (strong) NSTimer *uiTimer;
@@ -163,7 +163,7 @@ static NSString * CreateBase64EncodedString(NSString *inImagePath)
 
 // MARK: - MyStreamDeckPlugin -- implementation
 
-@implementation MyStreamDeckPlugin
+@implementation CatfingerPlugin
 
 // MARK: - Setup the instance variables if needed
 

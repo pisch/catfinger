@@ -14,7 +14,7 @@
 #import "ESDConnectionManager.h"
 #import "ESDSDKDefines.h"
 
-#import "MyStreamDeckPlugin.h"
+#import "CatfingerPlugin.h"
 
 int main(int argc, const char * argv[])
 {
@@ -72,8 +72,8 @@ int main(int argc, const char * argv[])
 			return 1;
 		}
 
-		// Create MyStreamDeckPlugin
-		MyStreamDeckPlugin *eventsManager = [[MyStreamDeckPlugin alloc] init];
+		// Create CatfingerPlugin
+		CatfingerPlugin *eventsManager = [[CatfingerPlugin alloc] init];
 
 		// Create the connection manager
 		ESDConnectionManager * __unused connectionManager = [[ESDConnectionManager alloc] initWithPort:port andPluginUUID:pluginUUID andRegisterEvent:registerEvent andInfo:info andDelegate:eventsManager];

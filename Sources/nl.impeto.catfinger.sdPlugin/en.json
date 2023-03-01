@@ -1,0 +1,8 @@
+{
+  "Description": "Read a TOTP from your YubiKey.",
+  "Name": "Catfinger",
+  "nl.impeto.catfinger.action": {
+    "Name": "Catfinger",
+    "Tooltip": "Read a TOTP from your YubiKey"
+  }
+}

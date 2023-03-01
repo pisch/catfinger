@@ -18,7 +18,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MyStreamDeckPlugin : NSObject <ESDEventsProtocol>
+@interface CatfingerPlugin : NSObject <ESDEventsProtocol>
 
 @property (weak) ESDConnectionManager *connectionManager;
 
